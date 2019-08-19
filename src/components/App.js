@@ -1,6 +1,7 @@
 import React from 'react';
-import NoteForm from './NoteForm';
+import CreateNote from '../containers/CreateNote';
+
 export default function App() {
-  return <NoteForm title="hi" body="yo yo" />;
+  return <CreateNote />;
 };
   
