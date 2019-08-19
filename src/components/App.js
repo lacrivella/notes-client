@@ -1,8 +1,12 @@
 import React from 'react';
-// import CreateNote from '../containers/CreateNote';
-import Notes from './Notes';
+import CreateNote from '../containers/CreateNote';
+import AllNotes from '../containers/AllNotes';
 
 export default function App() {
-  const notes = [{ title: "so", body: "yo" }];
-  return <Notes notes={notes} />
-};
+  return (
+    <>
+    <CreateNote />
+    <AllNotes />
+    </>
+  );
+}

@@ -5,7 +5,7 @@ import Note from './Note';
 function Notes({ notes }) {
   const noteList = notes.map(note => {
     return (
-      <li key={note}>
+      <li key={note._id}>
         <Note title={note.title} body={note.body} />
       </li>
     );
